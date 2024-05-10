@@ -1,6 +1,6 @@
 name: scalafmt-native-action
 description: GitHub action to run scalafmt-native.
-author: jrouly
+author: pjfanning
 inputs:
   version:
     description: The scalafmt-native version to run.

@@ -1,9 +1,11 @@
 # scalafmt-native GitHub Action
 
-[![CI status badge](https://github.com/jrouly/scalafmt-native-action/actions/workflows/ci.yml/badge.svg)](https://github.com/jrouly/scalafmt-native-action/actions/workflows/ci.yml)
-[![Release status badge](https://github.com/jrouly/scalafmt-native-action/actions/workflows/release.yml/badge.svg)](https://github.com/jrouly/scalafmt-native-action/actions/workflows/release.yml)
+[![CI status badge](https://github.com/pjfanning/scalafmt-native-action/actions/workflows/ci.yml/badge.svg)](https://github.com/pjfanning/scalafmt-native-action/actions/workflows/ci.yml)
+[![Release status badge](https://github.com/pjfanning/scalafmt-native-action/actions/workflows/release.yml/badge.svg)](https://github.com/pjfanning/scalafmt-native-action/actions/workflows/release.yml)
 
 GitHub action to run [scalafmt-native](https://scalameta.org/scalafmt).
+
+This is a fork of https://github.com/jrouly/scalafmt-native-action. Thanks to @jrouly and all the original contributors.
 
 > Spend more time discussing important issues in code review and less time on code style.
 > Scalafmt formats code so that it looks consistent between people on your team.
@@ -14,13 +16,13 @@ By using the native scalafmt image, this action typically completes in two to th
 ## Usage
 
 ```yaml
-- uses: jrouly/scalafmt-native-action@v3
+- uses: pjfanning/scalafmt-native-action@v4
   with:
     # Optional: Which version of scalafmt-native to use.
     # Default: Read from .scalafmt.conf, otherwise '3.7.17'.
     # Note: If .scalafmt.conf is not located in the repository root,
     #       you must specify the version here.
-    version: '3.7.17'
+    version: '3.8.1'
 
     # Optional: Arguments to be passed to scalafmt-native.
     # Default: --list
@@ -34,7 +36,7 @@ If any non-conforming files are present, they will be printed and the command wi
 Otherwise it will silently exit with success.
 
 ```yaml
-- uses: jrouly/scalafmt-native-action@v3
+- uses: pjfanning/scalafmt-native-action@v4
 ```
 
 #### OS compatibility
