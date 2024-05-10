@@ -1,4 +1,4 @@
-name: scalafmt-native-action
+name: scalafmt-native3-action
 description: GitHub action to run scalafmt-native.
 author: pjfanning
 inputs:

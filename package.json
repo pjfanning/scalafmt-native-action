@@ -1,5 +1,5 @@
 {
-  "name": "scalafmt-native-action",
+  "name": "scalafmt-native3-action",
   "version": "0.0.0",
   "private": true,
   "description": "GitHub action to run scalafmt-native.",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pjfanning/scalafmt-native-action.git"
+    "url": "git+https://github.com/pjfanning/scalafmt-native3-action.git"
   },
   "keywords": [
     "scalafmt",
